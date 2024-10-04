@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Βιογραφικό">
+    <meta name="keywords" content="βιογραφικό, σπουδές, ενδιαφέροντα, προσωπική ιστοσελίδα">
+    <meta name="author" content="Alexandros Manos">
+    <link rel="stylesheet" href="style.css">
+    <!--               Custom Fonts            -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <!-- ----------------------------------------------------------------------------------------- -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Icons                   -->
+    <script src="https://kit.fontawesome.com/c9a18265b7.js" crossorigin="anonymous"></script>
+
+
+    <title>Resume</title>
+</head>
+
+<body>
+    <!-- Container with Bootstrap grid system -->
+    <div class="container">
+        <!-- Header Section with Bootstrap classes -->
+        <header class="jumbotron text-center">
+            <h1 class="display-4">Προσωπική Ιστοσελίδα</h1>
+            <p class="lead">Καλώς ήρθατε στο βιογραφικό μου</p>
+        </header>
+        <nav class="navbar">
+            <ul>
+                <li class="nav-item"><a class="nav-link" href="">Μενού</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">Βιογραφικό</a></li>
+                <li class="nav-item"><a class="nav-link" href="#studies">Εκπαίδευση</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Επικοινωνία</a></li>
+            </ul>
+        </nav>
+
+        <div class="row mt-5" id="gridS">
+            <!-- Main Article Section -->
+            <article class="col-md-8">
+                <section id="about">
+                    <h3>Βιογραφικό</h3>
+                    <p>Αλέξανδρος Μάνος - Περιπτεράς</p>
+                </section>
+
+                <section id="Experience">
+                    <h3>Εργασιακή Εμπειρία</h3>
+                    <ul>
+                        <li>
+                            <a href="https://www.bazaar-online.gr/" target="_blank">
+                                <p>Πωλητής/Ταμίας, Bazaar, Ηράκλειο </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.microsoft.com/el-gr/" target="_blank">
+                                <p>Software Engineer Internship, Microsft, Νάουσα </p>
+                            </a>
+                        </li>
+                    </ul>
+
+                </section>
+
+                <section id="studies">
+                    <h3>Εκπαίδευση</h3>
+                    <ul>
+                        <li>
+                            <h4>Πανεπιστήμιο Κρήτης</h4>
+                            <ul>
+                                <li>Προπτυχιακός φοιτητης επιστημης υπολογιστων</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="interests">
+                    <h3>Ενδιαφέροντα</h3>
+                    <ul>
+                        <li>
+                            <h5>Τεχνολογία</h5>
+                        </li>
+                        <li>
+                            <h5>Ταξίδια</h5>
+                        </li>
+                        <li>
+                            <h5>Αθλητισμός</h5>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <!-- Sidebar ------- -->
+            <aside class="col-md-4">
+                <div class="card">
+                    <div class="card-header">Find me on:</div>
+                    <div class="card-body">
+                        <ul>
+                            <li>
+                                <a href="https://www.instagram.com/_alex_manos/" target="_blank">
+                                    <i class="fa-brands fa-instagram fa-4x"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/almanos/" target="_blank">
+                                    <i class="fa-brands fa-linkedin-in fa-4x"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/AlexandrosManos" target="_blank">
+                                    <i class="fa-brands fa-github fa-4x" style="color: #74C0FC;"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <footer class="text-center mt-5 p-4 bg-light rounded">
+            <h6>Επικοινωνία</h6>
+            <p>Email: csd5136@csd.uoc.gr</p>
+            <p>Τηλέφωνο: +30 691 234 567</p>
+        </footer>
+    </div>
+
+
+    <script>
+
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function () {
+                navLinks.forEach(nav => nav.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

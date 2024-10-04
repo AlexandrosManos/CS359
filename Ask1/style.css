@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Mate;
+    src: url(font/Matemasie-Regular.ttf);
+}
+
+.nav-item .active {
+    background-color: #007bff;
+    color: white;
+}
+
+section.active {
+    background-color: hsl(0, 100%, 50%);
+    border-left: 4px solid #007bff;
+    padding-left: 15px;
+}
+
+body {
+    background-image: url("images/background.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar ul {
+    list-style: none;
+    background-color: hsl(0, 0%, 25%);
+    overflow: hidden;
+}
+
+.navbar a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar li {
+    float: left;
+}
+
+.col-md-8 h3 {
+    font-family: Mate, "Lilita One", verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+}
