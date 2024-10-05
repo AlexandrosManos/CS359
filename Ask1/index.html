@@ -20,6 +20,11 @@
     <!-- Icons                   -->
     <script src="https://kit.fontawesome.com/c9a18265b7.js" crossorigin="anonymous"></script>
 
+    <!-- Facebook  -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/el_GR/sdk.js#xfbml=1&version=v17.0"
+        nonce="GduHlq5a"></script>
+
 
     <title>Resume</title>
 </head>
@@ -90,9 +95,12 @@
                             </a>
 
                         </li>
+                        <br>
                         <li>
                             <h5>Gaming</h5>
-                            <p> - Pro Rainbow Six Siege player</p>
+                            <p> - Pro<a href="https://en.wikipedia.org/wiki/Tom_Clancy%27s_Rainbow_Six_Siege"
+                                    target="_blank">
+                                    Rainbow Six Siege</a> player</p>
                             <!-- Less than 1MB.... -->
                             <video width="300px" controls muted>
                                 <source src="video/gaming.mp4" type="video/mp4">
@@ -101,11 +109,21 @@
 
                             </video>
                         </li>
+                        <br>
                         <li>
                             <h5>Συγγραφέας Παραμυθιών/Αφηγητής</h5>
                             <audio controls autoplay muted loop>
                                 <source src="audio/FairyTale.mp3" type="audio/mp3">
                             </audio>
+                        </li>
+                        <li>
+                            <h5>Μουσική</h5>
+                            <p> - Αγαπημένο μου τραγούδι:</p>
+                            <iframe width="420" height="315"
+                                src="https://www.youtube.com/embed/QZhSFzs24Jo?si=AQNHhv3uryuAuR1s&amp;start=30"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </li>
                     </ul>
                 </section>
@@ -113,6 +131,63 @@
 
             <!-- Sidebar ------- -->
             <aside class="col-md-4">
+                <!--  -->
+                <section id="courses">
+                    <h3>Μαθήματα και Βαθμολογίες</h3>
+                    <table class="table table-striped">
+                        <thead>
+                            <!-- t rows -->
+                            <tr>
+                                <!-- header -->
+                                <th>Μάθημα</th>
+                                <th>Βαθμολογία</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <!--data cell   -->
+                                <td>Θεωρία Υπολογισμού</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>Λογική</td>
+                                <td>3.5</td>
+                            </tr>
+                            <tr>
+                                <td>Ψηφιακή Σχεδίαση</td>
+                                <td>9.5</td>
+                            </tr>
+                            <tr>
+                                <td>Οργάνωση Υπολογιστών</td>
+                                <td>9.0</td>
+                            </tr>
+                            <tr>
+                                <td>Αγγλικά I</td>
+                                <td>6.0</td>
+                            </tr>
+                            <tr>
+                                <td>Αγγλικά II</td>
+                                <td>5.0</td>
+                            </tr>
+                            <tr>
+                                <td>Αγγλικά III</td>
+                                <td>6.0</td>
+                            </tr>
+                            <tr>
+                                <td>Αγγλικά IV</td>
+                                <td>10.0</td>
+                            </tr>
+                            <tr>
+                                <td>Φυσική I</td>
+                                <td>5.0</td>
+                            </tr>
+                            <tr>
+                                <td>Δίκτυα Υπολογιστών</td>
+                                <td>9.5</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
                 <div class="card">
                     <div class="card-header">Find me on:</div>
                     <div class="card-body">
@@ -125,14 +200,19 @@
                         <a href="https://github.com/AlexandrosManos" target="_blank">
                             <i class="fa-brands fa-github fa-4x"></i>
                         </a>
-
                     </div>
+                    <br>
+                    <div class="card-header">Share me:</div>
+                    <div class="fb-share-button" data-href="https://www.your-domain.com/your-page.html"
+                        data-layout="button_count">
+                    </div>
+
                 </div>
             </aside>
         </div>
 
         <footer class="text-center mt-5 p-4 bg-light rounded">
-            <h6>Επικοινωνία</h6>
+            <h2>Επικοινωνία</h2>
             <p>Email: csd5136@csd.uoc.gr</p>
             <p>Τηλέφωνο: +30 691 234 567</p>
         </footer>
