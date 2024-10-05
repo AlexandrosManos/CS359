@@ -3,17 +3,6 @@
     src: url(font/Matemasie-Regular.ttf);
 }
 
-.nav-item .active {
-    background-color: #007bff;
-    color: white;
-}
-
-section.active {
-    background-color: hsl(0, 100%, 50%);
-    border-left: 4px solid #007bff;
-    padding-left: 15px;
-}
-
 body {
     background-image: url("images/background.png");
     background-position: center;
@@ -21,10 +10,20 @@ body {
     background-size: cover;
 }
 
+/* navigation bar */
+.nav-item .active {
+    background-color: #007bff;
+    color: white;
+}
+
 .navbar ul {
     list-style: none;
     background-color: hsl(0, 0%, 25%);
     overflow: hidden;
+}
+
+.nav-link:hover {
+    text-decoration: none;
 }
 
 .navbar a {
@@ -39,9 +38,42 @@ body {
     float: left;
 }
 
+.navbar li:hover {
+    background-color: white;
+}
+
+/* --------------------------- */
 .col-md-8 h3 {
     font-family: Mate, "Lilita One", verdana, Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     font-weight: bold;
     font-style: italic;
+}
+
+.card-body {
+    margin-top: 10px;
+}
+
+.card-body a {
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+#Experience a {
+    color: hsl(330, 100%, 45%);
+    text-decoration: none;
+}
+
+#Experience a:hover {
+    color: hsl(330, 100%, 34%);
+
+}
+
+#studies a {
+    color: hsl(140, 100%, 50%);
+    text-decoration: none;
+}
+
+#studies a:hover {
+    color: hsl(140, 100%, 42%);
 }
