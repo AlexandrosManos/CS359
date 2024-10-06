@@ -57,6 +57,7 @@ body {
 }
 
 .card-body a {
+    /* Remove underline */
     text-decoration: none;
     margin-left: 15px;
 }
