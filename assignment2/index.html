@@ -35,14 +35,14 @@
             <!-- (?=.*[0-9]) contains at least one number -->
             <!--(?=.*[\W_]) contains at least one special character -->
             <label for="password">*password: </label>
-            <input type="password" id="password" minlength="8" maxlength="18" required minlength="8" maxlength="18"
-                required pattern="^(?=.*[A-Z])(?=.*[0-9])(?=.*[\W_]).{8,18}$"
+            <input type="password" id="password" minlength="8" maxlength="18" required
+                pattern="^(?=.*[A-Z])(?=.*[0-9])(?=.*[\W_]).{8,18}$"
                 title="Your password must have at least one capital letter, one number and one special character">
 
             <!-- Error duplicate ID, based on the given ID -->
             <label for="password">*confirm password: </label>
-            <input type="password" id="password" minlength="8" maxlength="18" required minlength="8" maxlength="18"
-                required pattern="^(?=.*[A-Z])(?=.*[0-9])(?=.*[\W_]).{8,18}$"
+            <input type="password" id="password" minlength="8" maxlength="18" required
+                pattern="^(?=.*[A-Z])(?=.*[0-9])(?=.*[\W_]).{8,18}$"
                 title="Your password must have at least one capital letter, one number and one special character">
 
 
@@ -81,13 +81,14 @@
             <br>
             <label for="type">*type: </label>
             <select name="type" id="type" required>
+                <option value="" disabled selected hidden>Επιλέξτε τύπο χρήστη</option>
                 <option value="Simple">Απλός Χρήστης</option>
                 <option value="volunteer">Εθελοντής Πυροσβέστης</option>
             </select>
             <br>
             <!-- All countries (not required option) -->
             <label for="country">*country: </label>
-            <select class="form-select" autocomplete="country" id="country" required>
+            <select class="form-select" autocomplete="country" id="country">
                 <option value="GR" selected>Greece</option>
                 <option value="AF">Afghanistan</option>
                 <option value="AX">Åland Islands</option>
@@ -346,6 +347,7 @@
 
             <label for="municipality">*municipality: </label>
             <select class="form-select" id="municipality" required>
+                <option value="" disabled selected hidden>Επιλέξτε δήμος διαμονής</option>
                 <option value="Las">Lasithi </option>
                 <option value="Her">Heraklion </option>
                 <option value="Ret">Rethymnon </option>
