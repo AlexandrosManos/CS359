@@ -24,62 +24,70 @@
     <!-- Sensitine Data -->
     <div class="form-container">
         <form action="index.php" method="post">
-            <label for="username">username: </label>
-            <input type="text" id="username" placeholder="Alexandros" minlength="8">
+            <label for="username">*username: </label>
+            <input type="text" id="username" placeholder="Alexandros" minlength="8" pattern="^[a-zA-Z][a-zA-Z0-9]*$"
+                required title="The username must start with a Latin character and contain at least 8 characters">
 
-            <label for="email">email: </label>
-            <input type="email" id="email" placeholder="alexandros@gmail.com">
+            <label for="email">*email: </label>
+            <input type="email" id="email" placeholder="alexandros@gmail.com" required>
 
-
-            <label for="password">password: </label>
-            <input type="password" id="password" minlength="8" maxlength="18">
+            <!-- (?=.*[A-Z]) contains at least one capital letter -->
+            <!-- (?=.*[0-9]) contains at least one number -->
+            <!--(?=.*[\W_]) contains at least one special character -->
+            <label for="password">*password: </label>
+            <input type="password" id="password" minlength="8" maxlength="18" required minlength="8" maxlength="18"
+                required pattern="^(?=.*[A-Z])(?=.*[0-9])(?=.*[\W_]).{8,18}$"
+                title="Your password must have at least one capital letter, one number and one special character">
 
             <!-- Error duplicate ID, based on the given ID -->
-            <label for="password">confirm password: </label>
-            <input type="password" id="password" minlength="8" maxlength="18">
+            <label for="password">*confirm password: </label>
+            <input type="password" id="password" minlength="8" maxlength="18" required minlength="8" maxlength="18"
+                required pattern="^(?=.*[A-Z])(?=.*[0-9])(?=.*[\W_]).{8,18}$"
+                title="Your password must have at least one capital letter, one number and one special character">
 
-            <label for="firstname">name: </label>
+
+            <label for="firstname">*name: </label>
             <input type="text" id="firstname" placeholder="Alexandros" minlength="3" maxlength="30"
-                pattern="^[A-Za-zΑ-Ωα-ωΆ-Ώά-ώ]" title="Only letters-Name">
+                pattern="^[A-Za-zΑ-Ωα-ωΆ-Ώά-ώ]+$" title="Only letters-Name" required>
 
-            <label for="lastname">lastname: </label>
+            <label for="lastname">*lastname: </label>
             <input type="text" id="lastname" placeholder="Manos" minlength="3" maxlength="30"
-                pattern="^[A-Za-zΑ-Ωα-ωΆ-Ώά-ώ]" title="Only letters-Name">
+                pattern="^[A-Za-zΑ-Ωα-ωΆ-Ώά-ώ]+$" title="Only letters-Name" required>
 
 
             <!-- Not Required (added value) -->
-            <label for="birthdate">birthdate: </label>
+            <label for="birthdate">*birthdate: </label>
             <input type="date" id="birthdate" value="1980-01-01" min="1920-01-01" max="2011-12-31">
 
-            <label>gender: </label>
+            <!-- Required -->
+            <label>*gender: </label>
             <div class="gender-group">
                 <label for="Mr.">Άντρας. </label>
-                <input type="radio" id="Mr." value="Άντρας" name="gender">
+                <input type="radio" id="Mr." value="Άντρας" name="gender" required>
                 <div class="gender-group">
                     <label for="Ms.">Γυναίκα. </label>
-                    <input type="radio" id="Ms." value="Γυναίκα" name="gender">
+                    <input type="radio" id="Ms." value="Γυναίκα" name="gender" required>
                 </div>
                 <div class="gender-group">
 
                     <label for="Other.">Άλλο. </label>
-                    <input type="radio" id="Other." value="Άλλο" name="gender">
+                    <input type="radio" id="Other." value="Άλλο" name="gender" required>
                 </div>
             </div>
             <br>
-            <!-- Required -->
-            <label for="afm">afm: </label>
-            <input type="text" id="afm" pattern="[0-9]{10}" placeholder="1320447689" title="10 Numbers">
+            <label for="afm">*afm: </label>
+            <input type="text" id="afm" pattern="[0-9]{10}" placeholder="1320447689" title="10 Numbers" required>
 
             <br>
-            <label for="type">type: </label>
-            <select name="type" id="type">
+            <label for="type">*type: </label>
+            <select name="type" id="type" required>
                 <option value="Simple">Απλός Χρήστης</option>
                 <option value="volunteer">Εθελοντής Πυροσβέστης</option>
             </select>
             <br>
             <!-- All countries (not required option) -->
-            <label for="country">country: </label>
-            <select class="form-select" autocomplete="country" id="country">
+            <label for="country">*country: </label>
+            <select class="form-select" autocomplete="country" id="country" required>
                 <option value="GR" selected>Greece</option>
                 <option value="AF">Afghanistan</option>
                 <option value="AX">Åland Islands</option>
@@ -336,8 +344,8 @@
             </select>
             <br>
 
-            <label for="municipality">municipality: </label>
-            <select class="form-select" id="municipality">
+            <label for="municipality">*municipality: </label>
+            <select class="form-select" id="municipality" required>
                 <option value="Las">Lasithi </option>
                 <option value="Her">Heraklion </option>
                 <option value="Ret">Rethymnon </option>
@@ -347,34 +355,35 @@
             <br>
 
             <!-- Required -->
-            <label for="prefecture">prefecture: </label>
-            <input type="text" id="prefecture" placeholder="Heraklion" minlength="3" maxlength="30"
-                pattern="^[A-Za-zΑ-Ωα-ωΆ-Ώά-ώ]" title="Only letters">
+            <label for="prefecture">*prefecture: </label>
+            <input type="text" id="prefecture" placeholder="Heraklion" minlength="3" maxlength="30" required
+                pattern="^[A-Za-zΑ-Ωα-ωΆ-Ώά-ώ]+$" title="Only letters">
 
-            <label for="address">address: </label>
+            <label for="address">*address: </label>
             <input type="text" id="address" placeholder="Karatasou 29" minlength="10" maxlength="150"
-                pattern="^[A-Za-zΑ-Ωα-ωΆ-Ώά-ώ0-9\s]+$" title="special characters are not allowed">
+                pattern="^[A-Za-zΑ-Ωα-ωΆ-Ώά-ώ0-9\s]+${10-150}" title="special characters are not allowed" required>
 
-            <label for="job">job: </label>
+            <label for="job">*job: </label>
             <input type="text" id="job" placeholder="Περιπτεράς" minlength="3" maxlength="30"
-                pattern="^[A-Za-zΑ-Ωα-ωΆ-Ώά-ώ]" title="Only letters">
+                pattern="^[A-Za-zΑ-Ωα-ωΆ-Ώά-ώ]+$" title="Only letters" required>
 
 
-            <label for="telephone">telephone: </label>
+            <label for="telephone">*telephone: </label>
             <input type="tel" id="telephone" placeholder="6983945662" pattern="[0-9]{10,14}"
-                title="Enter a valid telephone number (10-14 digits)">
+                title="Enter a valid telephone number (10-14 digits)" required>
 
             <br>
+            *Συμφωνία με όρους χρήσης:
             <label for="terms">
                 Απαγορεύεται η άσκοπη χρήση της εφαρμογής. Συμφωνώ πως η άσκοπη χρήση της θα διώκεται ποινικά.
-                <input type="checkbox" id="terms">
+                <input type="checkbox" id="terms" required>
             </label>
             <br>
 
 
             <div class="button-container">
-                <input type="reset" value="Εγγραφή">
-                <input type="submit" value="Submit">
+                <input type="reset" value="reset">
+                <input type="submit" value="Εγγραφή">
             </div>
         </form>
     </div>

@@ -13,17 +13,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 130vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
     background-color: hsl(0, 0%, 95%);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px hsla(0, 0%, 0%, 0.1);
+    max-width: 700px;
 }
 
 input {
@@ -82,4 +85,12 @@ label {
 
 #terms {
     margin-left: 6px;
+}
+
+.button-container input[type="reset"],
+.button-container input[type="submit"] {
+    font-size: 14px;
+    width: 150px;
+    height: 50px;
+    margin-left: 12px;
 }
