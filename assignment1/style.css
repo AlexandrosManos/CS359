@@ -4,6 +4,7 @@
 }
 
 body {
+    /* Added a background image for the page */
     background-image: url("images/background.png");
     background-position: center;
     background-attachment: fixed;
@@ -12,6 +13,7 @@ body {
 
 /* navigation bar */
 .nav-item .active {
+    /* Change the color of the "activated" section on the nav bar */
     background-color: #007bff;
     color: white;
 }

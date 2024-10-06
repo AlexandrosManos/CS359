@@ -1,0 +1,85 @@
+body {
+    /* Added a background image for the page */
+    background-image: url("images/background.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    font-family: 'Lilita One', cursive;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px hsla(0, 0%, 0%, 0.1);
+}
+
+input {
+    margin: 10px 0;
+}
+
+.gender-group {
+    display: inline-block;
+    margin-left: 5px;
+    padding-right: 20px;
+    padding-left: 50px;
+
+}
+
+input[type="text"],
+input[type="Email"],
+input[type="password"],
+input[type="date"] {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    background-color: hsl(122, 39%, 49%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: hsl(122, 39%, 40%);
+}
+
+select {
+    padding: 5px;
+    border: 2px solid hsl(0, 0%, 80%);
+    box-sizing: border-box;
+}
+
+label {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+
+#terms {
+    margin-left: 6px;
+}
