@@ -1,0 +1,168 @@
+.ex1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.ex2 {
+  position: absolute;
+  top: 60px;
+  left: 80px;
+}
+
+table,
+td {
+  padding: 0px;
+  margin: 0px;
+  cellspacing: 0;
+  cellpadding: 0;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  border: none;
+}
+
+img {
+  display: block;
+}
+
+body {
+  background-color: aqua;
+}
+
+.row {
+  width: 100%;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  display: inline-block;
+  float: left;
+  padding: 10px;
+  /* 	text-align: center;*/
+  border-radius: 8px;
+  margin-left: 2%;
+  /* min-height: 600px; */
+  margin-top: 10px;
+
+}
+
+.column1Width {
+  width: min-content;
+  height: min-content;
+}
+
+.column2Width {
+  position: relative;
+  width: 15%;
+  border: 5px solid black;
+  height: fit-content;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+
+
+}
+
+.subColumn {
+  float: left;
+  width: 45%;
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 8px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #ffffff;
+  border: 4px solid black;
+  border-radius: 8px;
+  color: black;
+  padding: 2px;
+  text-align: center;
+  font-size: 18px;
+  margin: 1px 1px;
+  cursor: pointer;
+}
+
+#NewG {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+.BottomSet {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+}
+
+#Cheat {
+  background-color: #ff0000;
+  color: white;
+}
+
+/* All in section */
+
+.modal {
+  display: none;
+  position: fixed;
+  /* Page "priority" */
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 300px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal-buttons {
+  display: flex;
+  /* space distribution for the buttons */
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.modal-button {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#PushBt {
+  background-color: hsl(122, 39%, 49%);
+}
+
+#cancelBt {
+  background-color: #f44336;
+}

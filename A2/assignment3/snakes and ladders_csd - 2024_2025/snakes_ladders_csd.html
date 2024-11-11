@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="myStyle.css">
+    <script src="initBoard.js"></script>
+    <script src="game.js"></script>
+    <!-- <script src="SinglePlayer.js"></script> -->
+    <link rel="icon" href="data:,">
+    <link rel="icon" type="images/png" href="images/icon.png">
+    <title>Snakes and ladders</title>
+</head>
+
+<body onload=initBoard()>
+
+    <div class="column column1Width" id="output">
+        <table id="mainTable">
+        </table>
+        <br>
+    </div>
+
+
+    <div class="column column2Width " id="output" style="background-color:#fffff0;">
+        <h2>Game Info</h2>
+        <div id="table"></div>
+
+        <div class="button-container">
+            <button onclick="changePosition()" id="move" style="display: none;">Move Pawn</button>
+        </div>
+        <div class="button-container">
+            <button onclick="StartGame()" id="Start">Start Game</button>
+        </div>
+        <div id="Playing"></div>
+        <div id="Color"></div>
+
+        <div class="button-container">
+            <button onclick="RollDice()" id="dice" style="display: none;"><img src="ImagesDice/dice.png" height: 50;
+                    width: 50;></button>
+        </div>
+        <div id="DiceNumber"></div>
+        <div id="round"></div>
+        <div id="SpecialEvent"></div>
+        <div id="winner"></div>
+
+
+        <div class="button-container" id="DiceCheat" style="display: none;">
+            <label for="ChDice">Cheat Dice</label>
+            <input type="number" min="1" max="6" id="ChDice" value="6">
+            <button onclick="Cheat()">Cd</button>
+        </div>
+
+        <div class="button-container" id="TpCheat" style="display: none;">
+            <label for="TpButton">Teleport</label>
+            <input type="number" min="1" max="90" id="TpButton" value="21">
+            <button onclick="Tp()">Tp</button>
+        </div>
+
+        <div id="results"></div>
+        <div class="button-container" id="NewG">
+            <button onclick="NewGame()">New Game</button>
+        </div>
+        <div id="WarningMess"></div>
+
+    </div>
+
+    <!-- all in section -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <p>All in situation</p>
+            <p id="Odds"></p>
+            <div class="modal-buttons">
+                <button class="modal-button" id="PushBt">All in</button>
+                <button class="modal-button" id="cancelBt">Stay</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="BottomSet">
+        <div class="CheatButton">
+            <button onclick="EnableCheat()" id="Cheat">Cheats off</button>
+        </div>
+    </div>
+</body>
+
+
+</html>
