@@ -85,6 +85,7 @@ async function hasPlayerWon() {
 }
 
 async function changePosition() {
+	document.getElementById("move").disabled = true;
 	if (game.diceNum == -1) {
 		document.getElementById("WarningMess").innerHTML = "<span id='SpanWarn' style= 'font-size: 20px; color: red;'>Roll the dice first </span>";
 		return;
@@ -94,6 +95,8 @@ async function changePosition() {
 	await TileCheck();
 	setNext();
 	await updateGUI();
+	document.getElementById("move").disabled = false;
+
 }
 
 async function TileCheck() {

@@ -89,6 +89,7 @@ async function hasPlayerWon() {
 
 async function changePosition() {
     return new Promise(async (resolve) => {
+        document.getElementById("move").disabled = true;
         if (game.diceNum == -1) {
             document.getElementById("WarningMess").innerHTML = "<span id='SpanWarn' style= 'font-size: 20px; color: red;'>Roll the dice first </span>";
             return;
@@ -104,8 +105,8 @@ async function changePosition() {
         if (game.winner == 0 && game.playing == player2) {
             await Bot();
         }
+        document.getElementById("move").disabled = false;
         resolve();
-
     });
 }
 function delay(ms) {
