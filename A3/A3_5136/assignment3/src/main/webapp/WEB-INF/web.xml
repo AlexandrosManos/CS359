@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+    version="4.0"
+    xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+    xmlns:javaee="http://xmlns.jcp.org/xml/ns/javaee"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>volunteersServlet</servlet-name>
+    <servlet-class>servlets.volunteersServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>servlets.Login</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>servlets.Logout</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>EmailCheck</servlet-name>
+    <servlet-class>servlets.EmailCheck</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>DeleteDB</servlet-name>
+    <servlet-class>servlets.DeleteDB</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>GetUser</servlet-name>
+    <servlet-class>servlets.GetUser</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>InitDB</servlet-name>
+    <servlet-class>servlets.InitDB</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>NewServlet</servlet-name>
+    <servlet-class>servlets.NewServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>TelephoneCheck</servlet-name>
+    <servlet-class>servlets.TelephoneCheck</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>UsernameCheck</servlet-name>
+    <servlet-class>servlets.UsernameCheck</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>usersServlet</servlet-name>
+    <servlet-class>servlets.usersServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>UpdateUser</servlet-name>
+    <servlet-class>servlets.UpdateUser</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>UpdateUser</servlet-name>
+    <url-pattern>/UpdateUser</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>UsernameCheck</servlet-name>
+    <url-pattern>/UsernameCheck</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>TelephoneCheck</servlet-name>
+    <url-pattern>/TelephoneCheck</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>NewServlet</servlet-name>
+    <url-pattern>/NewServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>InitDB</servlet-name>
+    <url-pattern>/InitDB</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>GetUser</servlet-name>
+    <url-pattern>/GetUser</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet-mapping>
+    <servlet-name>DeleteDB</servlet-name>
+    <url-pattern>/DeleteDB</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet-mapping>
+    <servlet-name>EmailCheck</servlet-name>
+    <url-pattern>/EmailCheck</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>volunteersServlet</servlet-name>
+    <url-pattern>/volunteersServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>usersServlet</servlet-name>
+    <url-pattern>/usersServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+
+
+  <session-config>
+    <session-timeout>11520</session-timeout>
+    <cookie-config>
+      <max-age>11520</max-age>
+    </cookie-config>
+  </session-config>
+</web-app>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c58fc744-8691-4161-b196-4d607c4adea5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../A1/assignment1/.idea/assignment1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A1/assignment2/.idea/assignment2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A2/assignment1/.idea/assignment1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A2/assignment3/.idea/assignment3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A2/assignment3/snakes and ladders_csd - 2024_2025/.idea/snakes and ladders_csd - 2024_2025.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment1/.idea/assignment1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment2/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment2/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment2/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment2/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment3/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment3/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment3/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment3/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment3/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment3/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/assignment4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ChatApplication/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ChatApplication/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ChatApplication/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ChatApplication/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ChatApplication/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ChatApplication/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ChatApplication/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ChatApplication/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ChatApplication/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ChatApplication/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DogApplication/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DogApplication/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DogApplication/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DogApplication/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DogApplication/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DogApplication/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DogApplication/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DogApplication/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DogApplication/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Registration_and_Login/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Registration_and_Login/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Registration_and_Login/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Registration_and_Login/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Registration_and_Login/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Registration_and_Login/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Registration_and_Login/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Registration_and_Login/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Registration_and_Login/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../forms/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../forms/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../forms/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../forms/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../forms/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../forms/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../forms/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A1/assignment2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../A1/assignment2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/A2.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../A2/A2.zip" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2ptaZUs7wVQ5CYRF9ZTkxKMNmKm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/amano/Desktop/csd/5th semester/hy-359/A3/assignment4/Reports&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c58fc744-8691-4161-b196-4d607c4adea5" name="Changes" comment="" />
+      <created>1733587881514</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733587881514</updated>
+      <workItem from="1733587882749" duration="111000" />
+      <workItem from="1733689593737" duration="52000" />
+      <workItem from="1734009805769" duration="58000" />
+      <workItem from="1734009871348" duration="23000" />
+      <workItem from="1737215450739" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

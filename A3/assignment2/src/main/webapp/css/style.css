@@ -1,0 +1,209 @@
+body {
+    /* Added a background image for the page */
+    background-image: url("../images/background.png");
+    /* Center the background image */
+    background-position: center;
+    /* Fix the background during scroll */
+    background-attachment: fixed;
+    /* Cover the entire viewport */
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    font-family: 'Lilita One', cursive;
+}
+
+.form-container {
+    /* Center the form container with spacing */
+    display: flex;
+    /* Center horizontally and vertically */
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+form {
+    /* Style for the form layout */
+    display: flex;
+    /* Stack elements verticall */
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: hsl(0, 0%, 95%);
+    padding: 20px;
+    border-radius: 10px;
+    /* Shadow effect */
+    box-shadow: 0 4px 8px hsla(0, 0%, 0%, 0.1);
+    max-width: 700px;
+}
+
+input {
+    /* Vertical margin for inputs */
+    margin: 10px 0;
+}
+
+.gender-group {
+    /* Style for gender input group-inline dispaly */
+    display: inline-block;
+    margin-left: 5px;
+    padding-right: 20px;
+    padding-left: 50px;
+
+}
+
+input[type="text"],
+input[type="Email"],
+input[type="password"],
+input[type="date"] {
+    /* Styles for the input types */
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+button[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    /* Styles for the submit (eggrafi) and the reset buttons*/
+    padding: 10px 20px;
+    background-color: hsl(122, 39%, 49%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    /* Pointer cursor on hover */
+    cursor: pointer;
+    /* Smooth background transition */
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: hsl(122, 39%, 40%);
+}
+
+select {
+    /* Styles for the select dropdown menu*/
+    padding: 5px;
+    border: 2px solid hsl(0, 0%, 80%);
+    box-sizing: border-box;
+}
+
+label {
+    /* Styles for labels */
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+
+#terms {
+    /* Margin for terms checkbox */
+    margin-left: 6px;
+}
+
+.button-container input[type="reset"],
+.button-container input[type="submit"] {
+    font-size: 14px;
+    width: 150px;
+    height: 50px;
+    margin-left: 12px;
+}
+
+.password-container {
+    /* Relative position (so i can use abs for the icon) */
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+}
+
+.password-container input[type="password"] {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+
+}
+
+/* icon class */
+.fa-eye,
+.fa-eye-slash {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    cursor: pointer;
+    color: hsl(0, 0%, 60%);
+}
+
+.fa-eye:hover,
+.fa-eye-slash:hover {
+    color: hsl(0, 0%, 40%);
+}
+
+/*Password and confirm password does not match */
+
+.error-mess-class{
+    color: red;
+    font-size: 0.9rem;
+    text-decoration: underline;
+}
+
+#error-message {
+    display: none;
+}
+
+
+#strength-message {
+    display: none;
+    font-size: 0.9rem;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    /* Page "priority" */
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal-buttons {
+    display: flex;
+    /* space distribution for the buttons */
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.modal-button {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#OkBt {
+    background-color: hsl(122, 39%, 49%);
+}
