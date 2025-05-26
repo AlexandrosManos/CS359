@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="assignment2:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a245b0b-213d-4258-ad5d-60226e1f94ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../A1/assignment1/.idea/assignment1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A1/assignment2/.idea/assignment2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A2/assignment1/.idea/assignment1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A2/assignment3/.idea/assignment3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A2/assignment3/snakes and ladders_csd - 2024_2025/.idea/snakes and ladders_csd - 2024_2025.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment1/.idea/assignment1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment3/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment3/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment3/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment3/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment3/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment3/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment4/Reports/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment4/Reports/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment4/Reports/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment4/Reports/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment4/Reports/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment4/Reports/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ChatApplication/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ChatApplication/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ChatApplication/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ChatApplication/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ChatApplication/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ChatApplication/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ChatApplication/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ChatApplication/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ChatApplication/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ChatApplication/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DogApplication/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DogApplication/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DogApplication/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DogApplication/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DogApplication/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DogApplication/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DogApplication/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DogApplication/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DogApplication/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Registration_and_Login/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Registration_and_Login/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Registration_and_Login/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Registration_and_Login/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Registration_and_Login/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Registration_and_Login/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Registration_and_Login/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Registration_and_Login/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Registration_and_Login/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../forms/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../forms/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../forms/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../forms/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../forms/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../forms/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../forms/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A1/assignment2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../A1/assignment2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/A2.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../A2/A2.zip" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Servlet" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2pRAWCSLiufJXFYfVHV9oWDWObE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/amano/Desktop/csd/5th semester/hy-359/A3/assignment2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="servlets" />
+      <recent name="mainClasses" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.97">
+    <configuration name="InitDatabase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="database.init.InitDatabase" />
+      <module name="assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="database.init.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/assignment2/A3/assignment2/src/main/webapp/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 9.0.97" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.97" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="assignment2:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/assignment2_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="7759f207-ef9a-4fc5-951a-4fea0ea36446" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53592" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="assignment2:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.InitDatabase" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.97" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Application.InitDatabase" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a245b0b-213d-4258-ad5d-60226e1f94ca" name="Changes" comment="" />
+      <created>1732718545645</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732718545645</updated>
+      <workItem from="1732718546654" duration="25687000" />
+      <workItem from="1732828772221" duration="8788000" />
+      <workItem from="1732904329725" duration="20397000" />
+      <workItem from="1733055122485" duration="8118000" />
+      <workItem from="1733249116173" duration="173000" />
+      <workItem from="1733406708250" duration="407000" />
+      <workItem from="1733424186334" duration="1982000" />
+      <workItem from="1733426260282" duration="838000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.ClassNotFoundException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
