@@ -21,7 +21,7 @@ The system supports 4 distinct user roles with specific functionalities:
 * ** Volunteer Firefighter:**
     * **Mission Acceptance:** View active calls for help and accept/decline participation.
     * **Live Chat:** Communicate directly with the Admin during active missions.
-* **👀 Guest:**
+* ** Guest:**
     * Quick incident reporting (SMS verification style).
     * View a live map of active incidents across Crete.
 
