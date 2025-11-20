@@ -208,7 +208,7 @@ function loadDoc() {
     xhr.open("GET", "https://forward-reverse-geocoding.p.rapidapi.com/v1/search?q=" + address + "&acceptlanguage=en&polygon_threshold=0.0");
 
     xhr.setRequestHeader('x-rapidapi-host', 'forward-reverse-geocoding.p.rapidapi.com');
-    var key = "b56dfa5a0cmsh3ec4a774dabe721p1ccdfejsnc1ea3a886cdb";
+    var key = "YOUR-API-KEY";
     xhr.setRequestHeader("x-rapidapi-key", key);
 
     xhr.send(data);
@@ -305,3 +305,4 @@ document.querySelector('form').addEventListener('submit', function (event) {
     jsonOutput.style.display = "block";
 
 });
+
