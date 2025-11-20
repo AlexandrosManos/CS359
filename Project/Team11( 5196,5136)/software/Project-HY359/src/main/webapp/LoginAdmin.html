@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Admin">
+    <meta name="keywords" content="Σελίδα σύνδεσης Admin σε Πλατφόρμα">
+    <meta name="author" content="Alexandros Manos,Αναστάσης Λόλας">
+    <title>Login</title>
+
+    <link rel="icon" type="images/jpg" href="images/adminIcon.jpg">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--               Custom Fonts            -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <!-- Icons                   -->
+    <script src="https://kit.fontawesome.com/c9a18265b7.js" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
+
+    <!-- Map script -->
+    <!-- <script src="http://www.openlayers.org/api/OpenLayers.js"></script> -->
+
+</head>
+
+<body>
+
+<!-- Sensitine Data -->
+<!--    onsubmit='RegisterPOST();return false;'-->
+<div class="form-container">
+    <form action="index.php" method="post" id="myForm1" onsubmit='loginPOST();return false;'>
+        <label for="username1">username: </label>
+        <input type="text" name="username" id="username1" placeholder="Alexandros" value="admin" required>
+        <div id="username-error1" class="error-mess-class"></div>
+
+        <label for="password1">password: </label>
+        <div class="password-container">
+            <input type="password" name="password" id="password1" placeholder="Password..." value="admiN12@*" required>
+            <i class="fa-solid fa-eye" id="ShowPassword"></i>
+        </div>
+        <p id="error-login" class="error-mess-class" style="display: none">Wrong Credentials</p>
+        <div class="button-container">
+            <input type="submit" value="Login">
+        </div>
+    </form>
+</div>
+
+<script src="js/adminGP.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Login">
+    <meta name="keywords" content="Σελίδα σύνδεσης Χρήστη σε Πλατφόρμα">
+    <meta name="author" content="Alexandros Manos,Anastasis Lolas">
+
+    <title>E-199</title>
+
+    <link rel="icon" type="images/jpg" href="images/icon.jpg">
+    <link rel="stylesheet" href="css/GStyle.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <!-- Icons                   -->
+    <script src="js/GP.js" defer></script>
+    <script src="https://kit.fontawesome.com/c9a18265b7.js" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
+
+
+</head>
+<body>
+    <h1 class="logo" >E-199 Fire Protection Platform</h1>
+
+    <nav class="navigation">
+        <a href="#" onclick="GoToHomePage()">HOME</a>
+        <a href="#" onclick = "GoToEditPage()">Edit Profile</a>
+    </nav>
+
+    <div class="form-container">
+        <form action="index.php" method="post" id="mySearch" onsubmit='SearchIncident();return false;' >
+
+            <label for="municipality">Νομός:</label>
+            <input type="text" name="municipality" id="municipality" placeholder="Πληκτρολογήστε τον νομό" value="Heraklion" required>
+            <div id="muni-error1" class="error-mess-class"></div>
+
+            <label for="incident_type">Τύπος Συμβάντος:</label>
+            <input type="text" name="incidentType" id="incident_type" placeholder="Πληκτρολογήστε τον τύπο του συμβάντος" required>
+            <div id="incidentType-error" class="error-mess-class"></div>
+
+            <label for="start_datetime">Ημερομηνία Έναρξης:</label>
+            <input type="date" name="startDate" id="start_datetime" required>
+            <div id="startDate-error" class="error-mess-class"></div>
+
+            <label for="end_datetime">Ημερομηνία Λήξης:</label>
+            <input type="date" name="endDate" id="end_datetime" required>
+            <div id="endDate-error" class="error-mess-class"></div>
+
+            <label for="firefightersCount">Αριθμός Πυροσβεστών:</label>
+            <input type="number" name="firefightersCount" id="firefightersCount" placeholder="Πληκτρολογήστε τον αριθμό των πυροσβεστών" required>
+            <div id="firefightersCount-error" class="error-mess-class"></div>
+
+            <label for="vehiclesCount">Αριθμός Οχημάτων:</label>
+            <input type="number" name="vehiclesCount" id="vehiclesCount" placeholder="Πληκτρολογήστε τον αριθμό των οχημάτων" required>
+            <div id="vehiclesCount-error" class="error-mess-class"></div>
+
+            <button type="submit" id="submitButton" >Υποβολή</button>
+
+        </form>
+
+       
+    </div>
+
+   
+    <div>
+        <div class="incident-container" id="isc">
+            
+        </div>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+.notification {
+    display: none; /* Αρχικά κρυμμένο */
+    background-color: #f8d7da; /* Απαλό κόκκινο */
+    color: #721c24; /* Σκούρο κόκκινο για το κείμενο */
+    border: 1px solid #f5c6cb; /* Σχέδιο με αντίθεση */
+    border-radius: 5px;
+    padding: 10px 20px;
+
+    margin-left : 40px;
+    position: relative;
+    font-size: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.notification .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #721c24;
+    cursor: pointer;
+}
+
+.notification .close-btn:hover {
+    color: #d9534f;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+.Message-button {
+    background-color: blue;
+    border-radius: 5px;
+    margin-top:10px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}

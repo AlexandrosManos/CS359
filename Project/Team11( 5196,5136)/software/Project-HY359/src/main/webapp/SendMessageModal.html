@@ -1,0 +1,35 @@
+
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <p id="modal-message"></p>
+        <div class="modal-buttons">
+<!--            -->
+            <form action="index.php" method="post" id="MessageForm" onsubmit='SendMessage();return false;'>
+<!--                <label for="incident_id">Incident_id </label>-->
+<!--                <input type="number" id="incident_id" name="incident_id">-->
+                <label for="message">Message: </label>
+                <textarea name="message" id="message" placeholder="Ola kala me tin fwtia" minlength="1" maxlength="400"
+                          title="The Message cannot be empty!" required></textarea>
+
+                <label for="recipient">Recipient: </label>
+                <select class="form-select" name="recipient" id="recipient" required>
+                    <option value="" disabled selected hidden>Επιλέξτε παραλήπτη</option>
+                    <option value="public">Public </option>
+                    <option value="volunteers">Volunteers </option>
+                </select>
+                <div id="RecipientName"></div>
+                <div class="button-container" id="buttonModal">
+                <button class="modal-button" id="Cancel" onclick="CloseModal()">Cancel</button>
+                <input type="submit" class="modal-button" id="SendBt" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+    document.getElementById('message').addEventListener('input', function () {
+        this.style.height = 'auto';
+        this.style.height = this.scrollHeight + 'px';
+    });
+</script>

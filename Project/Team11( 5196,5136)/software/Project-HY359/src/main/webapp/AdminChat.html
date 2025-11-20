@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Login">
+    <meta name="keywords" content="Σελίδα σύνδεσης Χρήστη σε Πλατφόρμα">
+    <meta name="author" content="Alexandros Manos,Αναστάσης Λόλας">
+
+    <title>E-199</title>
+
+    <link rel="icon" type="images/jpg" href="images/icon.jpg">
+    <link rel="stylesheet" href="css/GStyle.css">
+    <link rel="stylesheet" href="css/UStyle.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <!-- Icons
+    <script src="js/GP.js" defer></script> -->
+    <script src ="js/script.js" defer></script>
+    <script src ="js/Notifications.js" defer></script>
+
+    <script src="https://kit.fontawesome.com/c9a18265b7.js" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
+
+
+</head>
+<body>
+<header>
+
+    <h1 class="logo" >E-199 Fire Protection Platform</h1>
+
+    <nav class="navigation">
+        <a href="#" onclick="GoToHomePage()">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="main-container">
+        <div class="message-container" id="msg-cont"></div>
+
+        <div class="mid-content" id="msg">
+            <h2>Συνομιλία με τους Admins</h2>
+            <div class="incident-container" id="incident-container">
+                <h2>Chat With Admin</h2>
+                <div id="chatLog">
+                    <p>[2025-01-23 20:35:01] admin: Min plisiazetai tin perioxi, dromos kleistos </p>
+                </div>
+                <input id="message" type="text" placeholder="Type your message here..." class="message-input" style="margin-right: 10px;">
+                <button class="edit-button" onclick="SendMessage(-1, `admin`)">Send a message</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id='UserModal'></div>
+
+</header>
+<script>
+    document.addEventListener('DOMContentLoaded', async function() {
+        adminChatLog();
+    });
+</script>
+</body>
+</html>
